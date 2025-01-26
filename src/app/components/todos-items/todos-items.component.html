@@ -2,5 +2,5 @@
             <input id="todo-{{todo().id}}" type="checkbox" 
             (change)="todoClick()"
             class="w-5 h-5" [checked]="todo().completed"/>
-            <label for="todo-{{ todo().id}}"  class="text-xl font-lg">{{ todo().title  | uppercase }}</label>
+            <label for="todo-{{ todo().id }}"  class="text-xl font-lg">{{ todo().title  | uppercase }}</label>
         </div>
